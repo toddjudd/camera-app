@@ -13,6 +13,11 @@ cameraTrigger.addEventListener('click', () => {
   cameraOutput.classList.add('taken');
 });
 
+cameraOutput.addEventListener('click', () => {
+  cameraOutput.classList.toggle('taken');
+  cameraOutput.classList.toggle('edit');
+});
+
 function cameraStart() {
   navigator.mediaDevices
     .getUserMedia(constraints)

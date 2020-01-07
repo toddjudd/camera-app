@@ -42,3 +42,13 @@ html, body{
   right: 20px;
   z-index: 2;
 }
+
+.edit {
+  height: 100%;
+  width:100%;
+  transition: all 0.25s ease-in;
+  border: solid 3px white;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
